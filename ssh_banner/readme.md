@@ -1,10 +1,10 @@
 # SSH Banner
 
-Show Specified Word When You Connect by SSH.
+Show Specified Word When You Connect via SSH.
 
 ## How to use
 
-mv `ubuntu_banner` or `centos_banner` to `/etc/ssh/`
+mv `xxx_banner` to `/etc/ssh/`
 
 **root**  
 `$ vim /etc/ssh/sshd_config`
@@ -12,7 +12,7 @@ mv `ubuntu_banner` or `centos_banner` to `/etc/ssh/`
 change the line  
 `Banner None`  
 to  
-`Banner /etc/ssh/ubuntu_banner` (or `centos_banner`)
+`Banner /etc/ssh/ubuntu_banner` (or `centos_banner`, etc)
 
 **redhat**  
 `$ systemctl restart sshd`
