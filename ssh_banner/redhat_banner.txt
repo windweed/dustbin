@@ -1,0 +1,18 @@
+[0m[1;31m            .MMM..:MMMMMMM                 [0m
+[0m[1;31m           MMMMMMMMMMMMMMMMMM              [0m
+[0m[1;31m           MMMMMMMMMMMMMMMMMMMM.           [0m
+[0m[1;31m          MMMMMMMMMMMMMMMMMMMMMM           [0m
+[0m[1;31m         ,MMMMMMMMMMMMMMMMMMMMMM:          [0m
+[0m[1;31m         MMMMMMMMMMMMMMMMMMMMMMMM          [0m
+[0m[1;31m   .MMMM'  MMMMMMMMMMMMMMMMMMMMMM          [0m
+[0m[1;31m  MMMMMM    `MMMMMMMMMMMMMMMMMMMM.         [0m
+[0m[1;31m MMMMMMMM      MMMMMMMMMMMMMMMMMM .        [0m
+[0m[1;31m MMMMMMMMM.       `MMMMMMMMMMMMM' MM.      [0m
+[0m[1;31m MMMMMMMMMMM.                     MMMM     [0m
+[0m[1;31m `MMMMMMMMMMMMM.                 ,MMMMM.   [0m
+[0m[1;31m  `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.  [0m
+[0m[1;31m     MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  [0m
+[0m[1;31m       MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:  [0m
+[0m[1;31m          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM   [0m
+[0m[1;31m             `MMMMMMMMMMMMMMMMMMMMMMMM:    [0m
+[0m[1;31m                 ``MMMMMMMMMMMMMMMMM'      [0m
