@@ -26,3 +26,8 @@ than,
 ```bash
 $ source ~/.bashrc
 ```
+
+# My PS1
+`\[\e[35m\]\t \[\e[32m\]\u \[\e[33m\]\w \[\e[36m\]$(__git_ps1 "<%s>")\[\e[31m\]\n\$ \[\e[0m\]`
+
+
