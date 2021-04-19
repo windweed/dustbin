@@ -8,19 +8,7 @@ import os, sys
 import re
 import gzip
 
-# usage
 if len(sys.argv) != 3:
-    print "USAGE:"
-    print "Chinese Ver:"
-    print "需要两个参数。"
-    print "第一个参数为.gz文件所在目录，即要处理的gz文件的目录。"
-    print "第二个参数是.txt文件要输出的目录。"
-    print "请使用绝对路径,结尾不要加'/'"
-    print "\nEnglish Ver:"
-    print "Two parameters required."
-    print "The first param is the directory where the .gz files exist."
-    print "The second param is the dir where .txt files will be generated."
-    print "Please use the absolute path, And don't use '/' in the end.\n"
     exit(1)
 
 
