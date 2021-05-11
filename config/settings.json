@@ -1,0 +1,196 @@
+// https://blog.csdn.net/gaoolp/article/details/79625474?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&dist_request_id=1619597456302_50854&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
+// https://guowenjia.blog.csdn.net/article/details/79366795?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&dist_request_id=1619597631743_61682&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
+// https://blog.csdn.net/a201577F0546/article/details/78867756?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&dist_request_id=1619597977381_34389&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
+// https://cloud.tencent.com/developer/article/1525551
+// http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+// https://blog.csdn.net/lu_embedded/article/details/109006380?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242
+{
+    "workbench.editor.wrapTabs": true,
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBorder": "#ffff00",
+        "editor.findMatchBorder": "#ff0000",
+        "editor.findMatchHighlightBorder": "#ff0000",
+        "editor.symbolHighlightBorder": "#00ffff",
+        "editor.wordHighlightBorder": "#ff0000",
+        "sideBar.border": "#7B7B7B",
+        "[Visual Studio Dark]": {
+            "activityBar.foreground": "#1ae446",
+            "activityBar.inactiveForeground": "#bbbbbb",
+            "editor.background": "#000000",
+            "sideBar.background": "#000000",
+            "activityBar.background": "#000000",
+            "menu.background": "#000000",
+            "titleBar.activeBackground": "#000000",
+            "statusBar.background": "#000000",
+            "tab.inactiveBackground": "#000000",
+            "tab.activeBorder": "#00FF00"
+        }
+    },
+
+    // EDITOR
+    // font
+    "editor.fontFamily": "PT Mono",
+    // Cascadia Code, JetBrains Mono Light, Operator Mono Lig, CamingoCode,
+    // Fira Code, Source Code Variable, Input Mono, Inconsolata,
+    // Input Mono Narrow, PT Mono, Droid Sans Mono, Roboto Mono
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "330",
+    // special characters
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 60,
+    // "editor.minimap.showSlider": "always",
+    //
+    "editor.mouseWheelZoom": true,
+    "editor.rulers": [80, 120],
+    // suggest
+    "editor.suggestSelection": "first",
+    // "editor.acceptSuggestionOnEnter": "smart",
+    // tab
+    "editor.detectIndentation": false,
+    // "editor.tabCompletion": "onlySnippets",
+
+    // search Ctrl + P
+    // "search.quickOpen.includeHistory": true,
+    // "search.quickOpen.includeSymbols": true,
+
+    "C_Cpp.enhancedColorization": "Enabled",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "enabled": true,
+            "rules": {
+                // function/method
+                "function": "#FFFF00",
+                "templateFunction": "#FFFF00",
+                "method": "#FFFF00",
+                "method.static": "#DFBF00",
+                "operatorOverload": "#FFFF00",
+                "memberOperatorOverload": "#FFFF00",
+                "newOperator": "#569CD6",
+                // type
+                // "referenceType": "#ff0000",
+                "namespace": "#00DD9d",
+                "type": "#4EC9B0",    // "#4EC9B0",
+                "templateType": "#4EC9B0",
+                "macro": "#BD63C5",  // BD63C5
+                // "enum": "#ff0000",
+                "enumMember": "#00FF00",
+                // // variable
+                "property": "#FF7000",
+                "parameter": "#7B7B7B",
+                "variable.local": "#9CDCFE", // default Dark+
+                "variable.global": "#FF2222",
+                "property.static": "#CF5538",
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "constant.other.placeholder",
+                    "settings": {"foreground": "#70ff9b"}
+                },
+                {
+                    "scope": "storage.type.built-in.primitive",
+                    "settings": {"foreground": "#4EC9B0"} // 4EC9B0 蓝绿色
+                },
+                {
+                    "scope": "keyword.control.directive.include",
+                    "settings": { "foreground": "#9B9B9B", }
+                },
+                // {
+                //     "scope": "keyword.control",
+                //     "settings": {"foreground": "#569CD6"}
+                // },
+                // {
+                //     "scope": "keyword.other.using.directive",
+                //     "settings": {"foreground": "#569CD6"}
+                // },
+            ]
+        }
+    },
+
+
+    // PANEL
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    // "terminal.integrated.enableBell": true,
+    "terminal.integrated.detectLocale": "on",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.scrollback": 2000,
+    "terminal.external.linuxExec": "",
+    // "terminal.integrated.fontFamily": "monospace",
+
+    "debug.console.fontSize": 16,
+
+    // FILE
+    "files.eol": "\n",
+    
+    
+    // GIT
+    "git.ignoreLegacyWarning": true,
+    "git.ignoreWindowsGit27Warning": true,
+    // "git.autofetch": true,
+    
+    
+    // TELEMETRY
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+
+    // SYNC
+    "settingsSync.ignoredExtensions": [
+        "ms-python.python",
+        "richterger.perl",
+        "ms-toolsai.jupyter",
+        "cschlosser.doxdocgen",
+        "eamodio.gitlens",
+        "slevesque.vscode-hexdump",
+        "hediet.vscode-drawio",
+        "ms-vscode.hexeditor",
+        "luggage66.awk",
+        "ms-vscode.node-debug2",
+        "surajbarkale.ninja",
+        "visualstudioexptteam.vscodeintellicode",
+        "github.github-vscode-theme",
+        "golang.go",
+        "kiteco.kite",
+        "johnstoncode.svn-scm",
+        "ms-vscode.cpptools-themes"
+    ],
+
+
+    // EXTENSIONS
+    // "extensions.autoUpdate": false,
+
+    // ext - remote
+    "remote.SSH.remotePlatform": {
+        "TQL": "linux",
+    },
+
+
+    // LANGUAGES
+    // c_cpp
+    // "C_Cpp.loggingLevel": "Debug",
+    "C_Cpp.vcpkg.enabled": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.dimInactiveRegions": true,
+    // "C_Cpp.intelliSenseEngine": "Default",
+    // "C_Cpp.enhancedColorization": "Enabled",
+    "mesonbuild.configureOnOpen": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    // "python.pythonPath": "c:\\Python27\\python.exe",
+    "jupyter.disableJupyterAutoStart": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Visual Studio Dark",
+}
