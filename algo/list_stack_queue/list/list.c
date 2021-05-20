@@ -31,3 +31,20 @@ Find(ElementType X, List L)
     }
     return P;
 }
+
+/**
+ * @brief Delete first occurence of X from a list
+ * @note Assume use of a header node
+*/
+void
+Delete(ElementType X, List L)
+{
+    Position P, TmpCell;
+    P = FindPrevious(X, L);
+
+    if (!IsLast(P, L)) { // Assumption of header use
+        TmpCell = P->Next;
+        P->Next = TmpCell->Next;
+        free(TmpCell);
+    }
+}
