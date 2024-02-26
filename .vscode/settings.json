@@ -2,5 +2,8 @@
     "files.associations": {
         "stdio.h": "c",
         "stdbool.h": "c"
-    }
+    },
+    "editor.rulers": [80, 120],
+    "editor.mouseWheelZoom": true,
+    "cmake.sourceDirectory": "/workspaces/dustbin/leetcode_c"
 }
