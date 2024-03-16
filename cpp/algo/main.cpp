@@ -8,10 +8,11 @@
 #include <algorithm>
 #include "lc_list_node.h"
 
+
+
 using namespace std;
 
 int main() {
-    struct ListNode n {.next = nullptr};
     cout << "Hi" << endl;
     return EXIT_SUCCESS;
 }
