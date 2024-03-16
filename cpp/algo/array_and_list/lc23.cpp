@@ -1,3 +1,28 @@
+/**
+ * 23，合并k个升序链表
+ * https://leetcode.cn/problems/merge-k-sorted-lists/
+ *
+ * brief：
+ *     给定一个链表数组，每个链表都已按升序排列。
+ *     请将所有链表合并到一个升序链表中，返回合并后的链表。
+ *
+ * tags：链表，堆 lists, heap
+ *
+ * exmaples：
+ *     1. [[1,4,5],[1,3,4],[2,6]] => [1,1,2,3,4,4,5,6]
+ *
+ * tips：
+ *     1. k == lists.length
+ *     2. 0 <= k <= 10^4
+ *     3, 0 <= list[i].length <= 500
+ *     4, -10^4 <= list[i][j] <= 10^4
+ *     5, lists[i] 按升序排列
+ *     6，lists[i].length 总和不超过10^4
+ *
+ * solution:
+ *     没有使用递归，而是使用堆
+*/
+
 #include "stl.h"
 #include "lc_list_node.h"
 
@@ -29,10 +54,3 @@ public:
         return dummy.next;
     }
 };
-
-using namespace std;
-
-int main() {
-    cout << "Hi" << endl;
-    return EXIT_SUCCESS;
-}
