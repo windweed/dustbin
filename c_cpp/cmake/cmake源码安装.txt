@@ -1,0 +1,45 @@
+安装CMAKE 3.x
+# 先确保有gcc和g++和gmake
+
+卸载旧的cmake(一般是2.8)
+$ sudo yum remove cmake
+
+下载源码 .tar.gz
+$ wget https://cmake.org/files/v3.14/cmake-3.14.5.tar.gz
+$ tar -zxvf cmake-3.14.5.tar.gz
+$ sudo mv cmake-3.14.5 /opt/
+$ cd /opt/cmake-3.14.5/
+
+# 素质三连
+$ ./bootstrap --prefix=/usr/local/cmake    # 指定安装目录
+# By default bootstrap will build CMake without any debug or optimization flags.
+# To enable optimizations you will need to specify the `CMAKE_BUILD_TYPE` option to
+# bootstrap like this: `./bootstrap -- -DCMAKE_BUILD_TYPE:STRING=Release`
+# For more options with bootstrap, run `./bootstrap --help`
+$ gmake  # 可以先 `cat /proc/cpuinfo`看下cpu核心数(core)，然后 -j +数字
+$ sudo gmake install
+# The `make install` step is optional, cmake will run from the build directory.
+# If you are using the GNU C++ Compiler, you need to tell the bootstrap stript which
+#     compiler you want to use. This id done by setting the environment variables 
+#     `CC` and `CXX` before running it. For example:
+```bash
+$ env CC=cc CXX=CC ./bootstrap
+$ make
+$ make install
+```
+
+# 安装完成后的工作
+$ cd /usr/bin
+$ sudo ln -s /usr/local/cmake/bin/cmake cmake
+
+$ sudo vim /etc/profile
+末尾添加
+export PATH=$PATH:/usr/local/cmake/bin
+
+$ source /etc/profile
+
+$ cmake --version
+
+# fedora-gnome可以直接
+$ sudo dnf install cmake-gui
+

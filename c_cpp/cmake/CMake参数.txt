@@ -1,0 +1,14 @@
+
+* 编译Debug版本  
+    `$ cmake .. -DCMAKE_BUILD_TYPE=Debug`
+
+* 编译动态库  
+    `cmake -DBUILD_SHARED_LIBS=on ../`
+
+* 当生成的静态库需要链接到其他动态库中时，需要`-fPIC`选项
+```cmake
+target_compile_options(mylib
+    PRIVATE
+        -fPIC
+)
+```
