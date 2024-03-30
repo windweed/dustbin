@@ -1,0 +1,129 @@
+dec	oct	hex	char
+0	0	0x00	NUL (null)
+1	1	0x01	SOH (start of header)
+2	2	0x02	STX (start of text)
+3	3	0x03	ETX (end of text)
+4	4	0x04	EOT (end of transmission)
+5	5	0x05	ENQ (enquiry)
+6	6	0x06	ACK (acknowledge)
+7	7	0x07	BEL (bell)(\a)
+8	8	0x08	BS  (backspace)(\b)
+9	11	0x09	HT  (horizontal tab)(\t)
+10	12	0x0A	LF  (line feed-new line)(\n)
+11	13	0x0B	VT  (vertical tab)(\v)
+12	14	0x0C	FF  (form feed-new page)(\f)
+13	15	0x0D	CR  (carriage return)(\r)
+14	16	0x0E	SO  (shift out 不用切换)
+15	17	0x0F	SI  (shift in 启用切换)
+16	20	0x10	DLE (data link escape 数据链路转义)
+17	21	0x11	DC1 (device control 1)
+18	22	0x12	DC2 (device control 2)
+19	23	0x13	DC3 (device control 3)
+20	24	0x14	DC4 (device control 4)
+21	25	0x15	NAK (negative acknowledge 拒绝接收)
+22	26	0x16	SYN (synchronous idle 同步空闲)
+23	27	0x17	ETB (end of transmission block 结束传输块)
+24	30	0x18	CAN (cancel)
+25	31	0x19	EM  (end of medium 媒介结束)
+26	32	0x1A	SUB (substitute 代替)
+27	33	0x1B	ESC (escape 换码(溢出))
+28	34	0x1C	FS  (file separator 文件分隔符)
+29	35	0x1D	GS  (group separator 分组符)
+30	36	0x1E	RS  (record separator 记录分隔符)
+31	37	0x1F	US  (unit separator 单元分隔符)
+32	40	0x20	  (space)
+33	41	0x21	!
+34	42	0x22	"
+35	43	0x23	#
+36	44	0x24	$
+37	45	0x25	%
+38	46	0x26	&
+39	47	0x27	'
+40	50	0x28	(
+41	51	0x29	)
+42	52	0x2A	*
+43	53	0x2B	+
+44	54	0x2C	, (逗号)
+45	55	0x2D	-
+46	56	0x2E	. (点)
+47	57	0x2F	/
+48	60	0x30	0
+49	61	0x31	1
+50	62	0x32	2
+51	63	0x33	3
+52	64	0x34	4
+53	65	0x35	5
+54	66	0x36	6
+55	67	0x37	7
+56	70	0x38	8
+57	71	0x39	9
+58	72	0x3A	: (冒号)
+59	73	0x3B	; (分号)
+60	74	0x3C	<
+61	75	0x3D	=
+62	76	0x3E	>
+63	77	0x3F	?
+64	100	0x40	@
+65	101	0x41	A
+66	102	0x42	B
+67	103	0x43	C
+68	104	0x44	D
+69	105	0x45	E
+70	106	0x46	F
+71	107	0x47	G
+72	110	0x48	H
+73	111	0x49	I
+74	112	0x4A	J
+75	113	0x4B	K
+76	114	0x4C	L
+77	115	0x4D	M
+78	116	0x4E	N
+79	117	0x4F	O
+80	120	0x50	P
+81	121	0x51	Q
+82	122	0x52	R
+83	123	0x53	S
+84	124	0x54	T
+85	125	0x55	U
+86	126	0x56	V
+87	127	0x57	W
+88	130	0x58	X
+89	131	0x59	Y
+90	132	0x5A	Z
+91	133	0x5B	[
+92	134	0x5C	\
+93	135	0x5D	]
+94	136	0x5E	^ (shift6)
+95	137	0x5F	_
+96	140	0x60	` (shift波浪)
+97	141	0x61	a
+98	142	0x62	b
+99	143	0x63	c
+100	144	0x64	d
+101	145	0x65	e
+102	146	0x66	f
+103	147	0x67	g
+104	150	0x68	h
+105	151	0x69	i
+106	152	0x6A	j
+107	153	0x6B	k
+108	154	0x6C	l
+109	155	0x6D	m
+110	156	0x6E	n
+111	157	0x6F	o
+112	160	0x70	p
+113	161	0x71	q
+114	162	0x72	r
+115	163	0x73	s
+116	164	0x74	t
+117	165	0x75	u
+118	166	0x76	v
+119	167	0x77	w
+120	170	0x78	x
+121	171	0x79	y
+122	172	0x7A	z
+123	173	0x7B	{ (左花括号)
+124	174	0x7C	|
+125	175	0x7D	} (右花括号)
+126	176	0X7E	~
+127	177	0x7F	DEL (delete)
